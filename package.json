@@ -1,0 +1,20 @@
+{
+  "name": "chromium-serverless-nodejs-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "deploy": "serverless deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.8",
+    "express": "^4.17.1",
+    "node-prune": "^1.0.2",
+    "puppeteer": "^5.3.1",
+    "serverless": "^2.7.0",
+    "serverless-http": "^2.6.0"
+  }
+}
